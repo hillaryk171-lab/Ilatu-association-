@@ -1,0 +1,12 @@
+ILATU STANDALONE WEBSITE — QUICK DEPLOY
+
+1. Extract this ZIP.
+2. Deploy the contents of this folder to the ROOT of your existing Netlify site.
+3. Run supabase_setup.sql in the SQL Editor of the Supabase project already configured in these files.
+4. Ensure hillaryk171@gmail.com exists as a verified Supabase Auth user with a NEW strong password.
+5. Add the deployed site URL to Supabase Auth URL Configuration.
+6. Open https://YOUR-SITE/admin.html and sign in.
+
+The public website is index.html. Do not upload only admin.html. Do not put your password or Supabase service-role key in the code.
+
+Live dashboard publishing and image uploads require Supabase and an internet connection. This package has not been deployed or live-tested from this environment.
